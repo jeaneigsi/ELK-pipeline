@@ -119,6 +119,23 @@ services:
     networks:
       - elk-net
 
+  # vector:  
+  #   image: timberio/vector:0.46.1-distroless-libc  
+  #   container_name: vector  
+  #   depends_on:  
+  #     - kafka  
+  #     - elasticsearch  
+  #   ports:  
+  #     - "8686:8686"  # API GraphQL pour monitoring  
+  #   volumes:  
+  #     - ./vector/config/vector.toml:/etc/vector/vector.toml:ro  
+  #   command: ["--config", "/etc/vector/vector.toml"]
+  #   environment:  
+  #     - VECTOR_LOG=info  
+  #   networks:  
+  #     - elk-net  
+  #   restart: unless-stopped
+
   # Kibana
   kibana:
     image: docker.elastic.co/kibana/kibana:8.10.2

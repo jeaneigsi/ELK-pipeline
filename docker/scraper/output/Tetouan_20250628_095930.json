@@ -1,0 +1,904 @@
+[
+  {
+    "company_name": null,
+    "company_RC": "000774",
+    "address": {
+      "address_line": "Avenue Lmfadel Filali, Hay Sania Rmel, Médina المدينة العتيقة, Tétouan تطوان, Pachalik de Tétouan باشوية تطوان, Province de Tétouan إقليم تطوان, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, 93030, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+      "address_line2": "test address_line2",
+      "city": "Tetouan",
+      "country": "Maroc",
+      "zip": "54000"
+    },
+    "email": "test@test.com",
+    "phone_number": "12345676543",
+    "language": "fr",
+    "coordinates": {
+      "lat": 35.570634,
+      "lang": -5.3625907
+    },
+    "website": null,
+    "social_networks": [],
+    "rating": "4.9",
+    "review_count": "408",
+    "cuisine": "Cafe",
+    "price_range": "MAD 1–50"
+  },
+  {
+    "company_name": "Riad Restaurant El Reducto",
+    "company_RC": "000775",
+    "address": {
+      "address_line": "Trankat/Abdelatif El Medouri, Médina de Tétouan (ancienne Titawin) المدينة التوأم, Médina المدينة العتيقة, Tétouan تطوان, Pachalik de Tétouan باشوية تطوان, Province de Tétouan إقليم تطوان, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, 93013, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+      "address_line2": "test address_line2",
+      "city": "Tetouan",
+      "country": "Maroc",
+      "zip": "54000"
+    },
+    "email": "test@test.com",
+    "phone_number": "12345676543",
+    "language": "fr",
+    "coordinates": {
+      "lat": 35.571075,
+      "lang": -5.3698998
+    },
+    "website": null,
+    "social_networks": [],
+    "rating": "4.3",
+    "review_count": "1,072",
+    "cuisine": "Restaurant",
+    "price_range": null
+  },
+  {
+    "company_name": null,
+    "company_RC": "000776",
+    "address": {
+      "address_line": "Avenue Fnideq, Médina المدينة العتيقة, Tétouan تطوان, Pachalik de Tétouan باشوية تطوان, Province de Tétouan إقليم تطوان, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, 93002, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+      "address_line2": "test address_line2",
+      "city": "Tetouan",
+      "country": "Maroc",
+      "zip": "54000"
+    },
+    "email": "test@test.com",
+    "phone_number": "12345676543",
+    "language": "fr",
+    "coordinates": {
+      "lat": 35.5637179,
+      "lang": -5.3649666
+    },
+    "website": null,
+    "social_networks": [],
+    "rating": "4.9",
+    "review_count": "74",
+    "cuisine": "Restaurant",
+    "price_range": "MAD 1–50"
+  },
+  {
+    "company_name": "Diamond Tétouan Restaurant, Coffee & Pâtisserie ( highest rated )",
+    "company_RC": "000777",
+    "address": {
+      "address_line": "Boulevard Hassan II شارع الحسن الثاني, Bario, Médina المدينة العتيقة, Tétouan تطوان, Pachalik de Tétouan باشوية تطوان, Province de Tétouan إقليم تطوان, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, 93013, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+      "address_line2": "test address_line2",
+      "city": "Tetouan",
+      "country": "Maroc",
+      "zip": "54000"
+    },
+    "email": "test@test.com",
+    "phone_number": "12345676543",
+    "language": "fr",
+    "coordinates": {
+      "lat": 35.5683675,
+      "lang": -5.3769929
+    },
+    "website": null,
+    "social_networks": [],
+    "rating": "4.0",
+    "review_count": "1,004",
+    "cuisine": "Restaurant",
+    "price_range": null
+  },
+  {
+    "company_name": "Restaurant Sed Nakhla",
+    "company_RC": "000778",
+    "address": {
+      "address_line": "RN2, Zinat زينة, caidat de Bni Karrich بن قريش, Cercle de Tétouan دائرة تطوان, Province de Tétouan إقليم تطوان, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+      "address_line2": "test address_line2",
+      "city": "Tetouan",
+      "country": "Maroc",
+      "zip": "54000"
+    },
+    "email": "test@test.com",
+    "phone_number": "12345676543",
+    "language": "fr",
+    "coordinates": {
+      "lat": 35.4459747,
+      "lang": -5.3933463
+    },
+    "website": null,
+    "social_networks": [],
+    "rating": "4.1",
+    "review_count": "1,413",
+    "cuisine": "Restaurant",
+    "price_range": "MAD 50–100"
+  },
+  {
+    "company_name": "Restinga Restaurant",
+    "company_RC": "000779",
+    "address": {
+      "address_line": "Boulevard Mohamed V شارع محمد الخامس, Médina المدينة العتيقة, Tétouan تطوان, Pachalik de Tétouan باشوية تطوان, Province de Tétouan إقليم تطوان, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, 93013, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+      "address_line2": "test address_line2",
+      "city": "Tetouan",
+      "country": "Maroc",
+      "zip": "54000"
+    },
+    "email": "test@test.com",
+    "phone_number": "0784313725",
+    "language": "fr",
+    "coordinates": {
+      "lat": 35.570022,
+      "lang": -5.3726135
+    },
+    "website": "https://restinga.pt/",
+    "social_networks": [
+      "https://www.facebook.com/RestingaRestaurantEtLoungeSince1974",
+      "https://www.instagram.com/restingarestaurant/",
+      "https://www.facebook.com/ResturanteRestinga/",
+      "https://www.facebook.com/RestingaRestaurantEtLoungeSince1974/"
+    ],
+    "rating": "4.1",
+    "review_count": "536",
+    "cuisine": "Restaurant",
+    "price_range": "MAD 50–150"
+  },
+  {
+    "company_name": "Buffalo",
+    "company_RC": "000780",
+    "address": {
+      "address_line": "Avenue Joulan, Touabel, Tétouan تطوان, Pachalik de Tétouan باشوية تطوان, Province de Tétouan إقليم تطوان, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, 93005, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+      "address_line2": "test address_line2",
+      "city": "Tetouan",
+      "country": "Maroc",
+      "zip": "54000"
+    },
+    "email": "test@test.com",
+    "phone_number": "12345676543",
+    "language": "fr",
+    "coordinates": {
+      "lat": 35.582441,
+      "lang": -5.3452276
+    },
+    "website": null,
+    "social_networks": [],
+    "rating": "3.8",
+    "review_count": "727",
+    "cuisine": "Restaurant",
+    "price_range": "MAD 50–100"
+  },
+  {
+    "company_name": "Blanco Riad, Hôtel & Restaurant",
+    "company_RC": "000781",
+    "address": {
+      "address_line": "Boulevard Mohamed V شارع محمد الخامس, Médina de Tétouan (ancienne Titawin) المدينة التوأم, Médina المدينة العتيقة, Tétouan تطوان, Pachalik de Tétouan باشوية تطوان, Province de Tétouan إقليم تطوان, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, 93013, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+      "address_line2": "test address_line2",
+      "city": "Tetouan",
+      "country": "Maroc",
+      "zip": "54000"
+    },
+    "email": "test@test.com",
+    "phone_number": "12345676543",
+    "language": "fr",
+    "coordinates": {
+      "lat": 35.5706294,
+      "lang": -5.3700602
+    },
+    "website": null,
+    "social_networks": [],
+    "rating": "4.2",
+    "review_count": "706",
+    "cuisine": "4-star hotel",
+    "price_range": null
+  },
+  {
+    "company_name": "Café Pizzeria Patesserie JENIN",
+    "company_RC": "000782",
+    "address": {
+      "address_line": "Rue Al Ouahda, Bario, Médina المدينة العتيقة, Tétouan تطوان, Pachalik de Tétouan باشوية تطوان, Province de Tétouan إقليم تطوان, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, 93013, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+      "address_line2": "test address_line2",
+      "city": "Tetouan",
+      "country": "Maroc",
+      "zip": "54000"
+    },
+    "email": "test@test.com",
+    "phone_number": "0549540363",
+    "language": "fr",
+    "coordinates": {
+      "lat": 35.571423,
+      "lang": -5.3749208
+    },
+    "website": "https://jeninpastry.com/",
+    "social_networks": [
+      "https://www.instagram.com/patisseriejenin/",
+      "https://www.facebook.com/p/Patisserie-Jenin-100063703174926/",
+      "https://m.facebook.com/100063703174926/about/",
+      "https://www.facebook.com/jeninPatisserie"
+    ],
+    "rating": "3.8",
+    "review_count": "1,348",
+    "cuisine": "Cafe",
+    "price_range": "MAD 50–100"
+  },
+  {
+    "company_name": "Morgan Food",
+    "company_RC": "000783",
+    "address": {
+      "address_line": "Hay Sania Rmel, Médina المدينة العتيقة, Tétouan تطوان, Pachalik de Tétouan باشوية تطوان, Province de Tétouan إقليم تطوان, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, 93030, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+      "address_line2": "test address_line2",
+      "city": "Tetouan",
+      "country": "Maroc",
+      "zip": "54000"
+    },
+    "email": "test@test.com",
+    "phone_number": "0676418569",
+    "language": "fr",
+    "coordinates": {
+      "lat": 35.575318,
+      "lang": -5.3601433
+    },
+    "website": "https://www.morganfoods.com/",
+    "social_networks": [
+      "https://www.facebook.com/HolyChickenUSA/",
+      "https://www.linkedin.com/company/morgan-foods-inc.",
+      "https://www.instagram.com/reel/DK5ShStu_wh/",
+      "https://www.instagram.com/reel/DJ7a7nkxuMd/?hl=en",
+      "https://www.instagram.com/tooomuchfoood/?hl=en",
+      "https://www.youtube.com/@morgansmenus",
+      "https://www.facebook.com/p/Morgan-Foods-Inc-100067641856991/",
+      "https://www.facebook.com/groups/541108569267853/posts/1950551251656904/",
+      "https://www.instagram.com/morganstreetfoodhall/"
+    ],
+    "rating": "4.5",
+    "review_count": "136",
+    "cuisine": "Restaurant",
+    "price_range": "MAD 50–100"
+  },
+  {
+    "company_name": "La Dorada",
+    "company_RC": "000784",
+    "address": {
+      "address_line": "Avenue 9 Avril شارع 9 أبريل, Wilaya, Tétouan تطوان, Pachalik de Tétouan باشوية تطوان, Province de Tétouan إقليم تطوان, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, 93005, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+      "address_line2": "test address_line2",
+      "city": "Tetouan",
+      "country": "Maroc",
+      "zip": "54000"
+    },
+    "email": "test@test.com",
+    "phone_number": "12345676543",
+    "language": "fr",
+    "coordinates": {
+      "lat": 35.5893228,
+      "lang": -5.3349923
+    },
+    "website": null,
+    "social_networks": [],
+    "rating": "4.0",
+    "review_count": "936",
+    "cuisine": "Seafood",
+    "price_range": null
+  },
+  {
+    "company_name": "Mozart : Café & Fast Casual",
+    "company_RC": "000785",
+    "address": {
+      "address_line": "Avenue des Far شارع الجيش الملكي, Hay Sania Rmel, Médina المدينة العتيقة, Tétouan تطوان, Pachalik de Tétouan باشوية تطوان, Province de Tétouan إقليم تطوان, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, 93030, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+      "address_line2": "test address_line2",
+      "city": "Tetouan",
+      "country": "Maroc",
+      "zip": "54000"
+    },
+    "email": "test@test.com",
+    "phone_number": "12345676543",
+    "language": "fr",
+    "coordinates": {
+      "lat": 35.5736519,
+      "lang": -5.3598919
+    },
+    "website": null,
+    "social_networks": [],
+    "rating": "4.2",
+    "review_count": "217",
+    "cuisine": "Fast Food",
+    "price_range": "MAD 50–100"
+  },
+  {
+    "company_name": "Restaurant la dorada",
+    "company_RC": "000786",
+    "address": {
+      "address_line": "Kariane, Tétouan تطوان, Pachalik de Tétouan باشوية تطوان, Province de Tétouan إقليم تطوان, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, 93014, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+      "address_line2": "test address_line2",
+      "city": "Tetouan",
+      "country": "Maroc",
+      "zip": "54000"
+    },
+    "email": "test@test.com",
+    "phone_number": "12345676543",
+    "language": "fr",
+    "coordinates": {
+      "lat": 35.5889107,
+      "lang": -5.3625973
+    },
+    "website": null,
+    "social_networks": [],
+    "rating": "3.3",
+    "review_count": "10",
+    "cuisine": "Restaurant",
+    "price_range": "MAD 150–200"
+  },
+  {
+    "company_name": "La Esquina del Pescado",
+    "company_RC": "000787",
+    "address": {
+      "address_line": "Boulevard Chakib Arsalan, Bario, Médina المدينة العتيقة, Tétouan تطوان, Pachalik de Tétouan باشوية تطوان, Province de Tétouan إقليم تطوان, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, 93013, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+      "address_line2": "test address_line2",
+      "city": "Tetouan",
+      "country": "Maroc",
+      "zip": "54000"
+    },
+    "email": "test@test.com",
+    "phone_number": "0604786015",
+    "language": "fr",
+    "coordinates": {
+      "lat": 35.5696019,
+      "lang": -5.3765792
+    },
+    "website": "https://www.tripadvisor.es/Restaurant_Review-g295397-d2652805-Reviews-Esquina_del_Pescado-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+    "social_networks": [
+      "https://www.instagram.com/laesquinadelpescado/?hl=en",
+      "https://www.facebook.com/laesquinadelpescadosc/?locale=es_LA",
+      "https://m.facebook.com/laesquinadelpescadosc/about/?ref=page_internal",
+      "https://www.instagram.com/laesquinadelpescadoo/",
+      "https://www.instagram.com/reel/C1RmMKwIHCw/",
+      "https://www.facebook.com/josealvarezyg/videos/la-esquina-del-pescado-en-cartagena-%EF%B8%8F/475167352133817/",
+      "https://www.instagram.com/reel/DEXv9bTvW4E/",
+      "https://www.instagram.com/laesquinadelpescado/"
+    ],
+    "rating": "4.2",
+    "review_count": "543",
+    "cuisine": "Restaurant",
+    "price_range": "MAD 100–150"
+  },
+  {
+    "company_name": "Cafetería Lisboa",
+    "company_RC": "000788",
+    "address": {
+      "address_line": "Boulevard Oued Oum Rabia, Bario, Médina المدينة العتيقة, Tétouan تطوان, Pachalik de Tétouan باشوية تطوان, Province de Tétouan إقليم تطوان, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, 93020, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+      "address_line2": "test address_line2",
+      "city": "Tetouan",
+      "country": "Maroc",
+      "zip": "54000"
+    },
+    "email": "test@test.com",
+    "phone_number": "0779126361",
+    "language": "fr",
+    "coordinates": {
+      "lat": 35.56871,
+      "lang": -5.3807963
+    },
+    "website": "https://www.tripadvisor.es/Restaurants-g189158-c8-Lisbon_Lisbon_District_Central_Portugal.html",
+    "social_networks": [
+      "https://www.instagram.com/cafelisboa_granada/?hl=en",
+      "https://www.facebook.com/people/Cafeter%C3%ADa-pasteler%C3%ADa-Lisboa/61556349429347/"
+    ],
+    "rating": "4.0",
+    "review_count": "223",
+    "cuisine": "Restaurant",
+    "price_range": "MAD 50–100"
+  },
+  {
+    "company_name": "RESTAURANT CAFETERIE JOUDIA",
+    "company_RC": "000789",
+    "address": {
+      "address_line": "Hay Sania Rmel, Médina المدينة العتيقة, Tétouan تطوان, Pachalik de Tétouan باشوية تطوان, Province de Tétouan إقليم تطوان, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, 93014, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+      "address_line2": "test address_line2",
+      "city": "Tetouan",
+      "country": "Maroc",
+      "zip": "54000"
+    },
+    "email": "test@test.com",
+    "phone_number": "0781752648",
+    "language": "fr",
+    "coordinates": {
+      "lat": 35.577577,
+      "lang": -5.3577946
+    },
+    "website": "https://joudiaresto.com/",
+    "social_networks": [
+      "https://www.instagram.com/cafeteria_restaurant_joudia/",
+      "https://www.facebook.com/p/Restaurant-cafeteria-joudia-61556071364339/",
+      "https://www.facebook.com/61556071364339/videos/restaurant-cafeteria-joudia/2571456876391704/",
+      "https://m.facebook.com/61556071364339/photos/122180237576202378/",
+      "https://www.instagram.com/explore/locations/1022922404570502/joudiarestaurant/?locale=fr",
+      "https://translate.google.com/translate?u=https://www.instagram.com/explore/locations/1022922404570502/joudiarestaurant/?locale%3Dfr&hl=en&sl=fr&tl=en&client=search"
+    ],
+    "rating": "4.5",
+    "review_count": "42",
+    "cuisine": "Brunch",
+    "price_range": null
+  },
+  {
+    "company_name": "Chokies Tetouan",
+    "company_RC": "000790",
+    "address": {
+      "address_line": "Avenue Omar Ben Eloun, Hay Sania Rmel, Médina المدينة العتيقة, Tétouan تطوان, Pachalik de Tétouan باشوية تطوان, Province de Tétouan إقليم تطوان, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, 93030, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+      "address_line2": "test address_line2",
+      "city": "Tetouan",
+      "country": "Maroc",
+      "zip": "54000"
+    },
+    "email": "test@test.com",
+    "phone_number": "12345676543",
+    "language": "fr",
+    "coordinates": {
+      "lat": 35.5732939,
+      "lang": -5.3616582
+    },
+    "website": null,
+    "social_networks": [],
+    "rating": "4.0",
+    "review_count": "308",
+    "cuisine": "Restaurant",
+    "price_range": "MAD 50–100"
+  },
+  {
+    "company_name": "Le Rital Tetouan",
+    "company_RC": "000791",
+    "address": {
+      "address_line": "Avenue 9 Avril شارع 9 أبريل, Hay Hamama, Médina المدينة العتيقة, Tétouan تطوان, Pachalik de Tétouan باشوية تطوان, Province de Tétouan إقليم تطوان, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, 93013, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+      "address_line2": "test address_line2",
+      "city": "Tetouan",
+      "country": "Maroc",
+      "zip": "54000"
+    },
+    "email": "test@test.com",
+    "phone_number": "12345676543",
+    "language": "fr",
+    "coordinates": {
+      "lat": 35.5624616,
+      "lang": -5.3733742
+    },
+    "website": null,
+    "social_networks": [],
+    "rating": "3.6",
+    "review_count": "690",
+    "cuisine": "Pizza",
+    "price_range": "MAD 50–100"
+  },
+  {
+    "company_name": "Frutello",
+    "company_RC": "000792",
+    "address": {
+      "address_line": "Avenue Alladikia, Touabel, Tétouan تطوان, Pachalik de Tétouan باشوية تطوان, Province de Tétouan إقليم تطوان, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, 93005, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+      "address_line2": "test address_line2",
+      "city": "Tetouan",
+      "country": "Maroc",
+      "zip": "54000"
+    },
+    "email": "test@test.com",
+    "phone_number": "0727272727",
+    "language": "fr",
+    "coordinates": {
+      "lat": 35.580996,
+      "lang": -5.3421087
+    },
+    "website": "https://rs.linkedin.com/company/frutello",
+    "social_networks": [
+      "https://www.instagram.com/frutello_tetouan/?hl=en",
+      "https://www.instagram.com/frutello_tetouan/reels/?hl=en",
+      "https://www.facebook.com/Frutello16/",
+      "https://rs.linkedin.com/company/frutello",
+      "https://www.instagram.com/frutello_tetouan/reel/DF5ktA9ITWM/?locale=English",
+      "https://www.facebook.com/Frutello16/videos/brunch-frutello/938935923847014/",
+      "https://www.instagram.com/reel/Ct2UtmBruQ1/",
+      "https://www.instagram.com/frutello_tetouan/"
+    ],
+    "rating": "4.3",
+    "review_count": "475",
+    "cuisine": "Coffee shop",
+    "price_range": "MAD 1–50"
+  },
+  {
+    "company_name": "Restaurant La Union",
+    "company_RC": "000793",
+    "address": {
+      "address_line": "Boulevard Mohamed Ben Larbi Torres, Médina المدينة العتيقة, Tétouan تطوان, Pachalik de Tétouan باشوية تطوان, Province de Tétouan إقليم تطوان, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, 93013, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+      "address_line2": "test address_line2",
+      "city": "Tetouan",
+      "country": "Maroc",
+      "zip": "54000"
+    },
+    "email": "test@test.com",
+    "phone_number": "0538502604",
+    "language": "fr",
+    "coordinates": {
+      "lat": 35.5696656,
+      "lang": -5.3702396
+    },
+    "website": "https://launionrestaurant.com/",
+    "social_networks": [
+      "https://www.facebook.com/p/Restaurante-La-Union-100058434910242/",
+      "https://www.youtube.com/watch?v=Qh9qvvf2cqM",
+      "https://www.facebook.com/launionarlva/"
+    ],
+    "rating": "3.9",
+    "review_count": "225",
+    "cuisine": "Restaurant",
+    "price_range": "MAD 1–50"
+  },
+  {
+    "company_name": "Coffee restaurant Tohfa",
+    "company_RC": "000794",
+    "address": {
+      "address_line": "Zaïtoune ⵣⵉⵜⵓⵏ زيتون, caidat de Azla أذلاء, Cercle de Tétouan دائرة تطوان, Province de Tétouan إقليم تطوان, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, 93002, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+      "address_line2": "test address_line2",
+      "city": "Tetouan",
+      "country": "Maroc",
+      "zip": "54000"
+    },
+    "email": "test@test.com",
+    "phone_number": "0524112990",
+    "language": "fr",
+    "coordinates": {
+      "lat": 35.5209714,
+      "lang": -5.3432819
+    },
+    "website": "https://www.tiktok.com/discover/tohfa-restaurant-and-bar-menu",
+    "social_networks": [
+      "https://www.facebook.com/Tohfanazarah/",
+      "https://www.instagram.com/reel/DLPv9e0MmnV/",
+      "https://www.facebook.com/Tohfanazarah/videos/nazarah-%EF%B8%8F/546850861836508/",
+      "https://www.instagram.com/reel/DH6mUuBBL0h/",
+      "https://www.instagram.com/p/DLSEqLionYx/",
+      "https://www.instagram.com/reel/DG0cZQ3Iwwl/",
+      "https://www.instagram.com/tohfanazarah/?hl=en",
+      "https://www.facebook.com/Tohfanazarah/videos/%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%AE%F0%9D%97%B9%F0%9D%97%BC-%F0%9D%97%B0%F0%9D%97%BC%F0%9D%97%B3%F0%9D%97%B3%F0%9D%97%B2%F0%9D%97%B2-%F0%9D%97%B8%F0%9D%97%BC-%F0%9D%98%81%F0%9D%97%B5%F0%9D%97%BC%F0%9D%97%B1%F0%9D%97%AE-%F0%9D%97%B0%F0%9D%97%B9%F0%9D%97%AE%F0%9D%98%80%F0%9D%98%80%F0%9D%98%86-%F0%9D%97%AF%F0%9D%97%AE%F0%9D%97%BB%F0%9D%97%AE%F0%9D%98%81%F0%9D%97%B2-%F0%9D%97%B5%F0%9D%97%AE%F0%9D%97%B6%F0%9D%97%BB-%F0%9D%97%A9%F0%9D%97%AE%F0%9D%97%BB%F0%9D%97%B6%F0%9D%97%B9%F0%9D%97%B9%F0%9D%97%AE-%F0%9D%98%80%F0%9D%98%81%F0%9D%98%86%F0%9D%97%B9%F0%9D%97%B2-vanilla-latte-not-just-a-/1937261607015617/"
+    ],
+    "rating": "4.8",
+    "review_count": "185",
+    "cuisine": "Moroccan",
+    "price_range": "MAD 1–50"
+  },
+  {
+    "company_name": "Omar's hamburgers",
+    "company_RC": "000795",
+    "address": {
+      "address_line": "Boulevard Mohamed V شارع محمد الخامس, Hay Hamama, Médina المدينة العتيقة, Tétouan تطوان, Pachalik de Tétouan باشوية تطوان, Province de Tétouan إقليم تطوان, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, 93013, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+      "address_line2": "test address_line2",
+      "city": "Tetouan",
+      "country": "Maroc",
+      "zip": "54000"
+    },
+    "email": "test@test.com",
+    "phone_number": "0784313725",
+    "language": "fr",
+    "coordinates": {
+      "lat": 35.570255,
+      "lang": -5.37487
+    },
+    "website": "https://www.omahasteaks.com/blog/steak-cut-guide/",
+    "social_networks": [
+      "https://www.instagram.com/p/DKfjnasP3iM/",
+      "https://m.facebook.com/omarsburger/photos/",
+      "https://www.instagram.com/omarscarriagehouse/p/C_giKJIP2SB/",
+      "https://www.facebook.com/OmarsCarriageHouse/",
+      "https://www.instagram.com/p/C8IT0X7OrZw/",
+      "https://www.instagram.com/p/DElI-eEvxyw/",
+      "https://www.instagram.com/p/DIzXMnbvUyz/",
+      "https://m.facebook.com/61552683513964/mentions/",
+      "https://www.instagram.com/p/DElI-eEvxyw/?hl=en",
+      "https://m.facebook.com/OmarsCarriageHouse/photos/burger-wednesday-is-calling-10-burgers-from-4-6pm-grab-our-juicy-wagyu-patty-wit/1411911644271612/"
+    ],
+    "rating": "4.8",
+    "review_count": "34",
+    "cuisine": "Restaurant",
+    "price_range": "MAD 1–50"
+  },
+  {
+    "company_name": "Mozart : Café & Fast Casual",
+    "company_RC": "000796",
+    "address": {
+      "address_line": "Avenue des Far شارع الجيش الملكي, Hay Sania Rmel, Médina المدينة العتيقة, Tétouan تطوان, Pachalik de Tétouan باشوية تطوان, Province de Tétouan إقليم تطوان, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, 93030, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+      "address_line2": "test address_line2",
+      "city": "Tetouan",
+      "country": "Maroc",
+      "zip": "54000"
+    },
+    "email": "test@test.com",
+    "phone_number": "0538502604",
+    "language": "fr",
+    "coordinates": {
+      "lat": 35.5736519,
+      "lang": -5.3598919
+    },
+    "website": "https://www.cafe-mozart.at/en/cafe-mozart/our-coffee-house.html",
+    "social_networks": [
+      "https://www.facebook.com/MozartsCafe/"
+    ],
+    "rating": "4.2",
+    "review_count": "217",
+    "cuisine": "Fast Food",
+    "price_range": "MAD 50–100"
+  },
+  {
+    "company_name": "Restaurant La Union",
+    "company_RC": "000797",
+    "address": {
+      "address_line": "Boulevard Mohamed Ben Larbi Torres, Médina المدينة العتيقة, Tétouan تطوان, Pachalik de Tétouan باشوية تطوان, Province de Tétouan إقليم تطوان, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, 93013, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+      "address_line2": "test address_line2",
+      "city": "Tetouan",
+      "country": "Maroc",
+      "zip": "54000"
+    },
+    "email": "test@test.com",
+    "phone_number": "12345676543",
+    "language": "fr",
+    "coordinates": {
+      "lat": 35.5696656,
+      "lang": -5.3702396
+    },
+    "website": null,
+    "social_networks": [],
+    "rating": "3.9",
+    "review_count": "225",
+    "cuisine": "Restaurant",
+    "price_range": "MAD 1–50"
+  },
+  {
+    "company_name": "Restaurant Bakkali",
+    "company_RC": "000798",
+    "address": {
+      "address_line": "Hay Hamama, Tétouan تطوان, Pachalik de Tétouan باشوية تطوان, Province de Tétouan إقليم تطوان, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, 93004, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+      "address_line2": "test address_line2",
+      "city": "Tetouan",
+      "country": "Maroc",
+      "zip": "54000"
+    },
+    "email": "test@test.com",
+    "phone_number": "0643747631",
+    "language": "fr",
+    "coordinates": {
+      "lat": 35.5745957,
+      "lang": -5.3875734
+    },
+    "website": "https://livingbakkali.com/en/",
+    "social_networks": [],
+    "rating": "4.5",
+    "review_count": "14",
+    "cuisine": "Restaurant",
+    "price_range": null
+  },
+  {
+    "company_name": "Cafetería Lisboa",
+    "company_RC": "000799",
+    "address": {
+      "address_line": "Boulevard Oued Oum Rabia, Bario, Médina المدينة العتيقة, Tétouan تطوان, Pachalik de Tétouan باشوية تطوان, Province de Tétouan إقليم تطوان, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, 93020, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+      "address_line2": "test address_line2",
+      "city": "Tetouan",
+      "country": "Maroc",
+      "zip": "54000"
+    },
+    "email": "test@test.com",
+    "phone_number": "0784313725",
+    "language": "fr",
+    "coordinates": {
+      "lat": 35.56871,
+      "lang": -5.3807963
+    },
+    "website": "https://www.tripadvisor.es/Restaurants-g189158-c8-Lisbon_Lisbon_District_Central_Portugal.html",
+    "social_networks": [
+      "https://www.instagram.com/cafelisboa_granada/?hl=en",
+      "https://www.facebook.com/people/Cafeter%C3%ADa-pasteler%C3%ADa-Lisboa/61556349429347/"
+    ],
+    "rating": "4.0",
+    "review_count": "223",
+    "cuisine": "Restaurant",
+    "price_range": "MAD 50–100"
+  },
+  {
+    "company_name": "La Dorada",
+    "company_RC": "000800",
+    "address": {
+      "address_line": "Avenue 9 Avril شارع 9 أبريل, Wilaya, Tétouan تطوان, Pachalik de Tétouan باشوية تطوان, Province de Tétouan إقليم تطوان, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, 93005, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+      "address_line2": "test address_line2",
+      "city": "Tetouan",
+      "country": "Maroc",
+      "zip": "54000"
+    },
+    "email": "test@test.com",
+    "phone_number": "0706804896",
+    "language": "fr",
+    "coordinates": {
+      "lat": 35.5893228,
+      "lang": -5.3349923
+    },
+    "website": "https://en.wikipedia.org/wiki/La_Dorada,_Caldas",
+    "social_networks": [
+      "https://www.youtube.com/watch?v=D0L9LCMD38Y",
+      "https://www.instagram.com/ladoradaonline/?hl=en"
+    ],
+    "rating": "4.0",
+    "review_count": "936",
+    "cuisine": "Seafood",
+    "price_range": null
+  },
+  {
+    "company_name": "Cafe GRANADA",
+    "company_RC": "000801",
+    "address": {
+      "address_line": "Feddan Place, Médina de Tétouan (ancienne Titawin) المدينة التوأم, Médina المدينة العتيقة, Tétouan تطوان, Pachalik de Tétouan باشوية تطوان, Province de Tétouan إقليم تطوان, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, 93013, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+      "address_line2": "test address_line2",
+      "city": "Tetouan",
+      "country": "Maroc",
+      "zip": "54000"
+    },
+    "email": "test@test.com",
+    "phone_number": "12345676543",
+    "language": "fr",
+    "coordinates": {
+      "lat": 35.5721914,
+      "lang": -5.3740318
+    },
+    "website": null,
+    "social_networks": [],
+    "rating": "3.8",
+    "review_count": "702",
+    "cuisine": "Cafe",
+    "price_range": "MAD 1–50"
+  },
+  {
+    "company_name": "Blanco Riad, Hôtel & Restaurant",
+    "company_RC": "000802",
+    "address": {
+      "address_line": "Boulevard Mohamed V شارع محمد الخامس, Médina de Tétouan (ancienne Titawin) المدينة التوأم, Médina المدينة العتيقة, Tétouan تطوان, Pachalik de Tétouan باشوية تطوان, Province de Tétouan إقليم تطوان, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, 93013, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+      "address_line2": "test address_line2",
+      "city": "Tetouan",
+      "country": "Maroc",
+      "zip": "54000"
+    },
+    "email": "test@test.com",
+    "phone_number": "12345676543",
+    "language": "fr",
+    "coordinates": {
+      "lat": 35.5706294,
+      "lang": -5.3700602
+    },
+    "website": null,
+    "social_networks": [],
+    "rating": "4.2",
+    "review_count": "706",
+    "cuisine": "4-star hotel",
+    "price_range": null
+  },
+  {
+    "company_name": null,
+    "company_RC": "000803",
+    "address": {
+      "address_line": "Avenue Mohamed Hajjaj, Hay Sania Rmel, Médina المدينة العتيقة, Tétouan تطوان, Pachalik de Tétouan باشوية تطوان, Province de Tétouan إقليم تطوان, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, 93014, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+      "address_line2": "test address_line2",
+      "city": "Tetouan",
+      "country": "Maroc",
+      "zip": "54000"
+    },
+    "email": "test@test.com",
+    "phone_number": "12345676543",
+    "language": "fr",
+    "coordinates": {
+      "lat": 35.5787424,
+      "lang": -5.3598949
+    },
+    "website": null,
+    "social_networks": [],
+    "rating": "4.9",
+    "review_count": "12",
+    "cuisine": "Breakfast",
+    "price_range": "MAD 1–50"
+  },
+  {
+    "company_name": "Healthy Tasty - Restaurant Sain à Tétouan | Options Végétariennes, Végétaliennes et Sans Gluten",
+    "company_RC": "000804",
+    "address": {
+      "address_line": "Avenue Khartoum, Touabel, Tétouan تطوان, Pachalik de Tétouan باشوية تطوان, Province de Tétouan إقليم تطوان, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, 93005, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+      "address_line2": "test address_line2",
+      "city": "Tetouan",
+      "country": "Maroc",
+      "zip": "54000"
+    },
+    "email": "test@test.com",
+    "phone_number": "0695956297",
+    "language": "fr",
+    "coordinates": {
+      "lat": 35.577257,
+      "lang": -5.3436881
+    },
+    "website": "https://evendo.com/locations/morocco/tetouan/restaurant/healthy-tasty-restaurant-sain-a-tetouan-options-vegetariennes-vegetaliennes-et-sans-gluten",
+    "social_networks": [
+      "https://www.instagram.com/healthytastyrestaurant/?hl=en",
+      "https://www.instagram.com/healthytastyrestaurant/reels/",
+      "https://www.facebook.com/healthytastytetouan/?locale=ka_GE",
+      "https://www.facebook.com/healthytastytetouan/?locale=fa_IR",
+      "https://www.instagram.com/reel/CzRbWGuoQ45/?hl=en"
+    ],
+    "rating": "4.6",
+    "review_count": "103",
+    "cuisine": "Restaurant",
+    "price_range": "MAD 50–100"
+  },
+  {
+    "company_name": "Manhattan Restaurant",
+    "company_RC": "000805",
+    "address": {
+      "address_line": "Hay Hamama, Tétouan تطوان, Pachalik de Tétouan باشوية تطوان, Province de Tétouan إقليم تطوان, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, 93020, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+      "address_line2": "test address_line2",
+      "city": "Tetouan",
+      "country": "Maroc",
+      "zip": "54000"
+    },
+    "email": "test@test.com",
+    "phone_number": "12345676543",
+    "language": "fr",
+    "coordinates": {
+      "lat": 35.5698124,
+      "lang": -5.3849328
+    },
+    "website": null,
+    "social_networks": [],
+    "rating": "3.8",
+    "review_count": "981",
+    "cuisine": "Restaurant",
+    "price_range": "MAD 1–100"
+  },
+  {
+    "company_name": "Za3Za3 Touta",
+    "company_RC": "000806",
+    "address": {
+      "address_line": "Avenue Fes شارع فاس, Hay Sania Rmel, Médina المدينة العتيقة, Tétouan تطوان, Pachalik de Tétouan باشوية تطوان, Province de Tétouan إقليم تطوان, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, 93003, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+      "address_line2": "test address_line2",
+      "city": "Tetouan",
+      "country": "Maroc",
+      "zip": "54000"
+    },
+    "email": "test@test.com",
+    "phone_number": "12345676543",
+    "language": "fr",
+    "coordinates": {
+      "lat": 35.5705957,
+      "lang": -5.3558693
+    },
+    "website": null,
+    "social_networks": [],
+    "rating": "4.1",
+    "review_count": "867",
+    "cuisine": "Restaurant",
+    "price_range": "MAD 1–50"
+  },
+  {
+    "company_name": "Casa Tunsi",
+    "company_RC": "000807",
+    "address": {
+      "address_line": "Boulevard Fatima Al Fihria, Hay Boujarah, Tétouan تطوان, Pachalik de Tétouan باشوية تطوان, Province de Tétouan إقليم تطوان, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, 93014, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+      "address_line2": "test address_line2",
+      "city": "Tetouan",
+      "country": "Maroc",
+      "zip": "54000"
+    },
+    "email": "test@test.com",
+    "phone_number": "12345676543",
+    "language": "fr",
+    "coordinates": {
+      "lat": 35.5855334,
+      "lang": -5.358813
+    },
+    "website": null,
+    "social_networks": [],
+    "rating": "4.7",
+    "review_count": "25",
+    "cuisine": "Restaurant",
+    "price_range": "MAD 1–50"
+  }
+]

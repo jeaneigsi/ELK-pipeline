@@ -1,0 +1,183 @@
+data_dir = "/var/lib/vector"  
+  
+[api]  
+enabled = true  
+address = "0.0.0.0:8686"  
+playground = false  
+  
+[sources.scraper_kafka]  
+type = "kafka"  
+bootstrap_servers = "kafka:9092"  
+group_id = "vector-group"  
+topics = ["scraper-data"]  
+decoding.codec = "json"  
+
+ 
+[transforms.enrich]  
+type = "remap"  
+inputs = ["scraper_kafka"]  
+source = '''  
+# Ajout d'un timestamp si non présent  
+if !exists(.timestamp) {  
+  .timestamp = format_timestamp!(@timestamp, format: "%+")  
+}  
+  
+# Conversion des coordonnées en geo_point pour Elasticsearch  
+if exists(.coordinates) {  
+  .location.lat = .coordinates.lat  
+  .location.lon = .coordinates.lang  
+  .location.geo_point = string!(.location.lat) + "," + string!(.location.lon)  
+  del(.coordinates)  
+}  
+  
+# Traitement du numéro de téléphone - approche alternative sans groupes de capture  
+if exists(.phone_number) {  
+  .phone_number = replace!(.phone_number, r'[^0-9]', "")  
+    
+  if match(.phone_number, r'^0[567]\d{8}$') {  
+    # Formatage manuel sans groupes de capture  
+    phone_str = string!(.phone_number)  
+    .formatted_phone = slice!(phone_str, 0, 2) + " " +   
+                      slice!(phone_str, 2, 4) + " " +   
+                      slice!(phone_str, 4, 6) + " " +   
+                      slice!(phone_str, 6, 8) + " " +   
+                      slice!(phone_str, 8, 10)  
+  }  
+}  
+  
+# Traitement des réseaux sociaux  
+if exists(.social_networks) && is_array(.social_networks) && length(.social_networks) > 0 {  
+  social_types = {}  
+    
+  for_each(.social_networks) -> |_index, url| {  
+    if contains(string!(url), "facebook.com") {  
+      social_types.facebook = url  
+    } else if contains(string!(url), "instagram.com") {  
+      social_types.instagram = url  
+    } else if contains(string!(url), "twitter.com") || contains(string!(url), "x.com") {  
+      social_types.twitter = url  
+    } else if contains(string!(url), "linkedin.com") {  
+      social_types.linkedin = url  
+    } else if contains(string!(url), "youtube.com") {  
+      social_types.youtube = url  
+    }  
+  }  
+    
+  .social_media = social_types  
+  .has_social_media = true  
+  .social_media_count = length(social_types)  
+} else {  
+  .has_social_media = false  
+  .social_media_count = 0  
+}  
+  
+# Traitement de la note (rating)  
+if exists(.rating) {  
+  .rating = to_float!(.rating)  
+    
+  if .rating >= 4.5 {  
+    .rating_category = "excellent"  
+  } else if .rating >= 4.0 {  
+    .rating_category = "très bon"  
+  } else if .rating >= 3.5 {  
+    .rating_category = "bon"  
+  } else if .rating >= 3.0 {  
+    .rating_category = "moyen"  
+  } else {  
+    .rating_category = "à améliorer"  
+  }  
+}  
+  
+# Traitement du nombre d'avis  
+if exists(.review_count) {  
+  .review_count = to_int!(.review_count)  
+    
+  if .review_count >= 500 {  
+    .popularity = "très populaire"  
+  } else if .review_count >= 100 {  
+    .popularity = "populaire"  
+  } else if .review_count >= 50 {  
+    .popularity = "modéré"  
+  } else {  
+    .popularity = "peu connu"  
+  }  
+}  
+  
+# Traitement de la fourchette de prix  
+if exists(.price_range) && is_string(.price_range) {  
+  if contains(.price_range, "MAD") {  
+    mad_matches = find_all(.price_range, r'MAD')  
+    .price_level = length(mad_matches)  
+      
+    if .price_level == 1 {  
+      .price_category = "économique"  
+    } else if .price_level == 2 {  
+      .price_category = "intermédiaire"  
+    } else if .price_level == 3 {  
+      .price_category = "élevé"  
+    } else if .price_level >= 4 {  
+      .price_category = "luxe"  
+    }  
+  }  
+}  
+  
+# Enrichissement avec des informations sur le site web  
+if exists(.website) && is_string(.website) {  
+  domain = replace(.website, r'^https?://', "")  
+  domain = replace(domain, r'^www\.', "")  
+  .website_domain = split(domain, "/")[0]  
+    
+  .website_secure = starts_with(.website, "https://")  
+    
+  if contains(.website_domain, "wix.com") ||   
+     contains(.website_domain, "wordpress.com") ||  
+     contains(.website_domain, "blogspot.com") ||   
+     contains(.website_domain, "squarespace.com") {  
+    .website_type = "plateforme"  
+  } else {  
+    .website_type = "domaine personnalisé"  
+  }  
+}  
+  
+# Ajout d'un champ de recherche global  
+.search_text = join(compact([.company_name, .address.city, .cuisine]), " ")  
+  
+# Découpage des adresses avec parse_grok  
+if exists(.address) && is_string(.address) {  
+  parsed_address, err = parse_grok(.address, "%{DATA:street}, %{DATA:district}, %{DATA:city}, %{DATA:province}, %{DATA:region}, %{DATA:postal_code}, %{DATA:country}")  
+  if err == null {  
+    .street = parsed_address.street  
+    .district = parsed_address.district  
+    .city = parsed_address.city  
+    .province = parsed_address.province  
+    .region = parsed_address.region  
+    .postal_code = parsed_address.postal_code  
+    .country = parsed_address.country  
+      
+    # Suppression des caractères non-ASCII  
+    for field in ["city", "province", "region", "country"] {  
+      if exists(get(., [field])) {  
+        value = get!(., [field])  
+        value = replace(value, r'[^\x00-\x7F]', "")  
+        . = set!(., [field], strip_whitespace(value))  
+      }  
+    }  
+  }  
+}  
+'''  
+
+
+[sinks.elasticsearch]  
+type = "elasticsearch"  
+inputs = ["enrich"]  
+endpoints = ["http://elasticsearch:9200"]  
+bulk.index = "vector-business-%Y.%m.%d"  
+id_key = "company_RC"  
+compression = "none"  
+healthcheck = true  
+bulk.max_events = 1000  
+  
+[sinks.debug]  
+type = "console"  
+inputs = ["enrich"]  
+encoding.codec = "json"

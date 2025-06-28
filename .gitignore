@@ -1,0 +1,26 @@
+# === Node.js / Python / Common VMs / Build Artifacts ===
+node_modules/
+dist/
+build/
+*.log
+*.pid
+*.seed
+*.bak
+*.tmp
+*.swp
+*.swo
+*.swn
+*.sublime-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+venv/
+env/
+*.egg-info/
+pip-wheel-metadata/
+
+# Byte-compiled

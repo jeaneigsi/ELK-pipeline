@@ -1,0 +1,8 @@
+requests==2.31.0
+playwright
+beautifulsoup4
+selectolax
+scrapy==2.11.0
+scrapling
+camoufox
+kafka-python==2.0.2

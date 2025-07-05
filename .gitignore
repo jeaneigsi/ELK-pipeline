@@ -24,3 +24,4 @@ env/
 pip-wheel-metadata/
 
 # Byte-compiled
+docker/scraper/output/          
